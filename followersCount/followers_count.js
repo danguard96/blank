@@ -6,6 +6,11 @@ function increaseCount() {
     checkCountValue(); //Check current count value and display messages
 }
 
+function resetCount() {
+    count = 0; //Reset count to 0
+    displayCount(); //Display current count
+}
+
 function displayCount() {
     document.getElementById('countDisplay').innerHTML=count;
 }
