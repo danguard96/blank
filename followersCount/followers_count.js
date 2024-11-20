@@ -9,6 +9,7 @@ function increaseCount() {
 function resetCount() {
     count = 0; //Reset count to 0
     displayCount(); //Display current count
+    alert("Your Instagram followers count has been reset.")
 }
 
 function displayCount() {
